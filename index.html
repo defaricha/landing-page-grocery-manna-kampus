@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MannaKampus</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <a href="#">Manna<span>Kampus</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#special">Product</a></li>
+        <li><a href="#client">Our Store</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="nav__btn">
+        <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/cart1.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>Meet,<span> Shop</span> & Enjoy The True Freshness</h1>
+        <p class="section__description">
+          Discover the true essence of quality and freshness as you meet, shop,
+          and explore the wide range of products that define our commitment to
+          your daily needs.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Product Features -->
+    <section class="section__container special__container" id="special">
+      <h2 class="section__header">Products - New Year's Promotion</h2>
+      <p class="section__description_p">
+        Celebrate the start of a new year with our specially curated selection
+        of high-quality products, perfect for family feasts and festive
+        gatherings. Don't miss out on these limited-time offers!
+      </p>
+
+      <!-- Countdown Timer -->
+      <br />
+      <p class="countdown">
+        Hurry Up! Promotions Ends In: <span id="countdown-timer"></span>
+      </p>
+
+      <div class="special__grid">
+        <div class="special__card">
+          <img src="assets/menu1.png" alt="special" />
+          <h4>BBQ Meat Bundle</h4>
+          <p>
+            A premium selection of fresh meats. Perfect for making your New Year
+            BBQ party unforgettable.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">
+              <del>Rp. 399.000</del> <br />
+              Rp. 299.000
+            </p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="assets/menu2.png" alt="special" />
+          <h4>Party Snack Combo</h4>
+          <p>
+            A complete snack pack that ideal for enjoying with friends and
+            family during the festivities.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">
+              <del>Rp. 99.000</del> <br />
+              Rp. 79.000
+            </p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="assets/menu3.png" alt="special" />
+          <h4>Sparkling Drink Set</h4>
+          <p>
+            A collection of sparkling drinks in various flavors, perfect for
+            toasting to the New Year.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">
+              <del>Rp. 59.000</del> <br />
+              Rp. 39.000
+            </p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span class="banner__icon"
+          ><i class="ri-shopping-basket-2-line"></i
+        ></span>
+        <h4>Order Your Groceries</h4>
+        <p>
+          Seamlessly place your grocery orders online with just a few clicks.
+          Enjoy convenience and efficiency as you select from our diverse menu
+          of delectable dishes.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-truck-fill"></i></span>
+        <h4>Choose Your Groceries</h4>
+        <p>
+          Customize your shopping experience by choosing from a tantalizing
+          array of options. For fresh produce, pantry staples, or specialty
+          items, find the perfect ingredients to satisfy your cravings.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-star-smile-fill"></i></span>
+        <h4>Enjoy Your Groceries</h4>
+        <p>
+          Sit back, relax, and let us deliver your groceries right to your
+          doorstep. Delight in the freshness and quality of every item, knowing
+          that your satisfaction is our top priority.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Store -->
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Our Store</h2>
+      <div class="client__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <!-- Peta lokasi Cabang Godean -->
+                <div class="store-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0841776294715!2d110.34729897407908!3d-7.780899392238752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59f02af0d11d%3A0x8b9783ed062b3931!2sManna%20Kampus%20(Mirota%20Kampus)%20Godean!5e0!3m2!1sen!2sid!4v1735995868235!5m2!1sen!2sid"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <h4>Manna Kampus Godean</h4>
+                <p class="address">
+                  Jl. Godean No.KM. 2.8, Kembang, Ngestiharjo, Kec Kasihan,
+                  Kabupaten Bantul, Daerah Yogyakarta Istimewa
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <!-- Peta lokasi Cabang Babarsari -->
+                <div class="store-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.062588057921!2d110.41196627407908!3d-7.783189092236494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59eccfaf2939%3A0x2935e0ad5dd1cbe1!2sManna%20Kampus%20(Mirota%20Kampus)%20Babarsari!5e0!3m2!1sen!2sid!4v1735996095427!5m2!1sen!2sid"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <h4>Manna Kampus Babarsari</h4>
+                <p class="address">
+                  Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti,
+                  Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa
+                  Yogyakarta 55281, Indonesia
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <!-- Peta lokasi Cabang Palagan -->
+                <div class="store-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15814.0902460429!2d110.35894931702715!3d-7.734260503685593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58e31a9c9eab%3A0x39d6a6018023142b!2sManna%20Kampus%20(Mirota%20Kampus)%20Palagan!5e0!3m2!1sen!2sid!4v1735996004045!5m2!1sen!2sid"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <h4>Manna Kampus Palagan</h4>
+                <p class="address">
+                  Jl. Palagan Tentara Pelajar No.31, Mudal, Sariharjo, Kec.
+                  Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <img src="assets/Manna-Kampus-Logo.png" alt="" />
+          </div>
+          <p class="section__description">
+            Your one-stop shop for all your grocery needs. Enjoy quick and easy
+            shopping with us.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <ul class="footer__links">
+            <li><a href="https://mannakampus.com/katalog-tanggal-muda-manna-kampus/">Early Month Promotion</a></li>
+            <li><a href="https://mannakampus.com/jumat-murah-manna-kampus/">Friday Promotion</a></li>
+            <li><a href="https://mannakampus.com/promo-fantastik-all-mk/">Fantastic Promotion</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="https://mannakampus.com/sejarah-manna-kampus/">Our Story</a></li>
+            <li><a href="https://mannakampus.com/karir-manna-kampus/">Careers</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <!-- Maps location -->
+        <div class="footer__col">
+          <h4>Our Location</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12675.765255956462!2d110.36421348275564!3d-7.801903669282742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5d7d8818c085%3A0x100f0669244316!2sJl.%20Solo%20Km%207%20Babarsari%2C%20Catur%20Tunggal%2C%20Sleman%2C%20Yogyakarta!5e0!3m2!1sen!2sid!4v1672903892233!5m2!1sen!2sid"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/manna.kampus"
+          class="social__icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="ri-facebook-circle-fill"></i>
+        </a>
+        <a
+          href="https://x.com/manna_kampus"
+          class="social__icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="ri-twitter-fill"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/notebydee"
+          class="social__icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="ri-instagram-fill"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dellafaricha"
+          class="social__icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="ri-linkedin-fill"></i>
+        </a>
+      </div>
+
+      <div class="footer__bar">
+        Copyright © 2024 Manna Kampus by Della Faricha. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
